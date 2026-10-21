@@ -1,0 +1,32 @@
+# Python
+
+**pycache**/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+serviceAccountKey.json
+firebase-adminsdk*.json
+
+# Node.js
+
+node_modules/
+
+# Build output
+
+frontend/dist/
+dist/
+build/
+
+# IDE and OS
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
